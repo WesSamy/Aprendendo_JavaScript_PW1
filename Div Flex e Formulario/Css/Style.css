@@ -1,0 +1,111 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../img/BackgroundSite.png");
+}
+
+.titulo{
+
+    /*Customizando o Titulo do meu site*/
+    color: rgb(236, 250, 244);
+    text-align:center;
+    font-size: 15px;
+    margin-bottom: 2%;
+    /*Bordas*/
+    border: 20px dotted transparent;
+    border-radius: 180px;
+    border: 2px solid rgb(63, 15, 238);
+    background-color: orange;
+    /*Centralizado*/
+    display:flexbox;
+    justify-content: center;
+/*_____________________________________________________________________________________________________________*/    
+}
+.divpai{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    
+}
+/*_____________________________________________________________________________________________________________*/ 
+.bF{
+    display: flex;
+    margin-top: 5%; 
+}
+/*_____________________________________________________________________________________________________________*/  
+
+.bFImg{
+/*Img Beija-Flor*/
+    display: flex;
+    justify-content:right;
+    padding-left: 2%;
+    width: 16%;
+       
+}
+/*_____________________________________________________________________________________________________________*/  
+
+.textBF{
+/* Texto (Resumo) do Beija-Flor */
+    display:flex;
+    justify-content:end;
+    font-size: 15px;
+    margin-left: 2%;
+    border: 20px dotted transparent;
+    border-radius: 40px;
+    border: 2px solid rgb(19, 19, 14);
+    background-color: rgba(230, 155, 16, 0.61);
+    padding-left: 2%;
+}
+/*_____________________________________________________________________________________________________________*/ 
+
+.tucano{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.tucanoImg1{
+    padding-left: 2%;
+}
+.tucanoImg2{
+   
+    padding-right:2%;
+    padding-left: 2%;
+}
+.textT{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-left: 2%;
+    border: 20px dotted transparent;
+    border-radius: 40px;
+    border: 2px solid rgb(19, 19, 14);
+    background-color: rgba(230, 155, 16, 0.61);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+/*_____________________________________________________________________________________________________________*/ 
+
+.arara{
+    display:flex;
+    margin-top: 5%;
+    border: 20px dotted transparent;
+    border-radius: 40px;
+    border: 2px solid rgb(19, 19, 14);
+    background-color: rgba(230, 155, 16, 0.61);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.araraImg{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    width: 16%; 
+}
+/*_____________________________________________________________________________________________________________*/ 
+
+.textA{
+    display: flex;
+    font-size: 15px;
+    margin-left: 2%;
+    
+}
+    
