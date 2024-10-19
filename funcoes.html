@@ -8,12 +8,23 @@
     </head>  
 
 <body>
-    <p>
+    <p> 
+        <!--Input é uma proprieda com várias qualidades (tipos) que 
+        nos permite deixar nosso projeto mais interativo com o usuario-->
         Escolha sua cor de fundo:
-        <input type="color" id="corzinha">
+        <input oninput="mudaCor()" type="color" id="corzinha">
     </p>
-
+    <!--O EVENTO onclick permite que executamos uma função ao (clicar) o botão-->
     <button onclick="nome_funcao()">Executar</button>
     <button onclick="mudaCor()">Mudar a Cor</button>
+
+    <p>
+        <!--IMPORTANTE toda vez que eu quiser manipular qualquer coisa no JS 
+        eu preciso colocar um ID-->
+        <h2>Nome: <input oninput="pegaNome()" id="insereNome" type="text"> </h2>
+        <h2>O nome escolhido foi: <input id="exibeNome" type="text"> </h2>
+
+        <h1 id="titulo"> </h1>
+    </p>
 </body>
 </html>
