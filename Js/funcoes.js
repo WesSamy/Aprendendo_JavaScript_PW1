@@ -13,6 +13,7 @@ function mudaCor(){
     //faz com que a função "chame/selecione" o corpo (body) do HTML
     const fundo = document.body;
     //Fazer com que essa função mude a cor de fundo do site
+    // .Style "chama" o CSS para modificar/estilizar o elemento em questão.
     fundo.style.backgroundColor = corzinha;
 }
 
@@ -27,3 +28,5 @@ function pegaNome() {
    titulo.textContent = nomeDigitado;
     
 }
+// função => armazena uma "tarefa" ao que esta dentro dele.
+//stylesheet => folha de estilo em cascata (linha a linha) é a "Relação que o meu CSS vai ter com o meu HTML".
